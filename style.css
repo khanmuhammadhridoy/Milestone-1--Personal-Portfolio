@@ -85,6 +85,51 @@ h2 {
     border-radius: 20px;
     background: #fff;
 }
+#services {
+    padding: 50px;
+    text-align: center;
+}
+
+#services .box {
+    width: 27%;
+    display: inline-block;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 20px;
+    background: #f0efef;
+}
+
+#services .box img {
+    width: 100px;
+}
+
+#client {
+    background: #f0efef;
+    padding: 50px;
+    text-align: center;
+}
+
+#client .box {
+    width: 27%;
+    display: inline-block;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 20px;
+    background: #fff;
+}
+
+
+
+.client-img img {
+    width: 100px;
+    height: 100px;
+    background: #707070;
+    border-radius: 50%;
+}
+
+.client-text {
+    text-align: left;
+}
 
 #contact {
     text-align: center;
