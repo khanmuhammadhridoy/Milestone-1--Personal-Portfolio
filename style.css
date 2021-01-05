@@ -1,7 +1,6 @@
-5048d0 24c0e0 399bf7 f59860 f8b060 f76760;
-
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 img {
@@ -10,6 +9,7 @@ img {
 
 a {
     text-decoration: none;
+    display: inline-block;
 }
 
 p {
@@ -19,22 +19,35 @@ p {
 h1 {
     font-size: 80px;
     text-transform: uppercase;
-    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Bebas Neue', cursive;
     margin-bottom: 0;
 }
+h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 
 .button {
     padding: 16px 50px;
     color: #fff;
     background-image: linear-gradient(180deg, #f76760, #f89a95);
+    font-weight: 700;
+    margin-top: 25px;
+    border-radius: 5px;
 }
 
 .blue-highlight {
-    color: #5048d0;
+    color: #363958;
 }
 
 .yellow-highlight {
     color: #f76760;
+}
+
+.top {
+    height: 600px;
 }
 
 .half {
@@ -42,4 +55,72 @@ h1 {
     float: left;
     padding: 2%;
     margin: 0px 4% 0 2%;
+}
+
+.about {
+    height: 600px;
+}
+
+.work {
+    background: #f0efef;
+    padding: 50px;
+    text-align: center;
+}
+.work .box {
+    width: 27%;
+    display: inline-block;
+    margin: 1%;
+    padding: 2%;
+    text-align: left;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 5px 5px 40px 5px grey;
+}
+
+.contact {
+    text-align: center;
+    padding: 5%;
+}
+
+.work-inquary {
+    background: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+    margin: auto;
+    height: 250px;
+}
+
+.work-inquary h1 {
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    padding: 50px 100px 50px 20px;
+
+}
+
+.work-inquary .button {
+    margin: 70px 20px 52px 70px;
+
+}
+
+.contact h3 {
+    color: #696871;
+}
+
+.contact h2 {
+    text-transform: lowercase;
+    font-size: 36px;
+    margin: 10px;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
 }
