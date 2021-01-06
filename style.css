@@ -131,6 +131,10 @@ h2 {
     text-align: left;
 }
 
+.client-text p {
+    text-align: justify;
+}
+
 #contact {
     text-align: center;
     padding: 5%;
